@@ -44,5 +44,5 @@ if __name__ == "__main__":
 
     logger = logging.getLogger("python_project_template")
 
-    hello = Hello("World")
+    hello = Hello("World!")
     logger.info(hello.greet())
